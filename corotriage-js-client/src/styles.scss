@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/_tables.scss";
+@import "~bootstrap/scss/grid"; // add the grid
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+//Margins
+.margin-top {
+  margin-top: 1rem;
+}
+
+//Alignment
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+//Form fields
+.mat-form-field {
+  width: 100%;
+}
+
+//Container
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+
