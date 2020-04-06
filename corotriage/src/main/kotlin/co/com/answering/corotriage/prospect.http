@@ -1,0 +1,32 @@
+POST http://127.0.0.1:8080/prospect
+Content-Type: application/json
+
+{
+  "id": {"value": "werwerwerw"},
+  "name": {"value": "prueba de usuario"},
+  "lastName": {"value": "Prueba"},
+  "document": {"value": "1092292922"},
+  "email": {"value": "qohatpp@gmail.com"},
+  "mobilePhone": {"value": "3009485777"},
+  "eps": {"value": "Sanitas"},
+  "prospectSymptoms": [
+    {
+      "prospectId": null,
+      "prospectSymptomId": {"value": 1},
+      "prospectSymptomName":  {"value":  "Tos"}
+    }
+  ],
+  "prospectLocation": {
+    "prospectId": null,
+    "prospectLocationLat": {"value": 4.708213},
+    "prospectLocationLng": {"value": -74.120240}
+  }
+}
+
+###
+
+GET http://127.0.0.1:8080/prospect
+
+###
+
+GET

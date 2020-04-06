@@ -1,0 +1,7 @@
+type Query {
+    # Get person with ID
+    prospect(id: String!): Prospect
+
+    # Get persons by name
+    prospectByName(name: String!): [Prospect]
+}
